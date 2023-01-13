@@ -29,8 +29,8 @@ body {
   background-size: 66% 50%;
 
   @media only screen and (min-width: 1280px) {
-      background-image: url(../img/bg-pattern-top.svg), url(../img/bg-pattern-bottom.svg);
-      background-size: initial;
+    background-image: url(../img/bg-pattern-top.svg), url(../img/bg-pattern-bottom.svg);
+    background-size: initial;
   }
 }
 
@@ -43,19 +43,19 @@ body {
   margin-inline: auto;
   padding-inline: 24px;
 
-  &>* {
+  & > * {
     max-width: 100%;
   }
 
-  &>main {
+  & > main {
     margin-block: auto;
   }
 
-  &> :first-child:not(main) {
+  & > :first-child:not(main) {
     margin-block-start: 0;
   }
 
-  &> :last-child:not(main) {
+  & > :last-child:not(main) {
     margin-block-end: 0;
   }
 }
