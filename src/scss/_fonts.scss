@@ -1,0 +1,9 @@
+/* import fonts */
+
+/* Kumbh Sans */
+@font-face {
+  font-family: 'Kumbh Sans';
+  src: url("../fonts/Kumbh_Sans/KumbhSans-VariableFont_wght.ttf") format('TrueType');
+}
+
+$primary-ff: 'Kumbh Sans', sans-serif;
