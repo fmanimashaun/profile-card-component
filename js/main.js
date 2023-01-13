@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkprofile_card_component=self.webpackChunkprofile_card_component||[]).push([[179],{971:()=>{}},e=>{e(e.s=971)}]);
